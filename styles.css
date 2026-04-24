@@ -87,6 +87,17 @@ img {
  display: block;
 
 }
+footer{
+  font-family: var(--font-inter);
+  font-weight: var(--fw-regular);
+color: var(--color1-white);
+}
+a{
+  color: var(--color3-purple);
+  text-decoration: none;
+  text-shadow: 0 0 1px white;
+}
+
 @media (max-width: 768px) {
 main{
   flex-direction: column;
@@ -105,6 +116,7 @@ main{
   padding: 0px;
   
 }
+
 
 
 
